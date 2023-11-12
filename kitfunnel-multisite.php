@@ -4,7 +4,7 @@
  Plugin Name: KitFunnel
  Plugin URI: https://kitfunnel.com
  Description: Personalización Multisite
- Version: 1.2.3
+ Version: 1.2.4
  Author: KitFunnel
  Author URI: https://kitfunnel.com
  License: GPL 2+
@@ -29,5 +29,5 @@ function css_personalizado_network() { if (is_network_admin()) { echo '<style>
 
 
 add_action( 'wp_head', function () { ?> <style>
-		.wp-submenu.wp-submenu-wrap {border-radius: 6px !important;}.ab-sub-wrapper {border-radius: 0px 0px 6px 6px !important;}#wpadminbar ul.ab-sub-secondary {border-radius: 5px !important;}#wp-admin-bar-my-account img:not(#wp-admin-bar-user-info img) {border: 3px solid #8c8f94bf !important;border-radius: 6px !important;background: #aaaaaa00 !important;}#wp-admin-bar-user-info img {border-radius: 6px !important;}#wp-admin-bar-my-sites-list .ab-sub-wrapper, #wp-admin-bar-my-sites-list .wp-admin-bar-arrow {display: none !important;}
+		.wp-submenu.wp-submenu-wrap {border-radius: 6px !important;}.ab-sub-wrapper {border-radius: 0px 0px 6px 6px !important;}#wpadminbar ul.ab-sub-secondary {border-radius: 5px !important;}#wp-admin-bar-my-account img:not(#wp-admin-bar-user-info img) {border: 3px solid #8c8f94bf !important;border-radius: 6px !important;background: #aaaaaa00 !important;}#wp-admin-bar-user-info img {border-radius: 6px !important;}#wp-admin-bar-my-sites-list .ab-sub-wrapper, #wp-admin-bar-my-sites-list .wp-admin-bar-arrow {display: none !important;}#wp-admin-bar-blog-3 .ab-item::after {content: " CN" !important;}#wp-admin-bar-blog-4 .ab-item::after {content: " VN" !important;}#wp-admin-bar-blog-5 .ab-item::after {content: " CRM" !important;}
 </style> <?php } );
